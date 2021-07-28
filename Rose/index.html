@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="a gospel musician, Rose Mambo from Zimbabwe ">
+	<meta lang="eng">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Rose Mambo</title>
+	<link rel="stylesheet" href="style.css">
+    <meta name="theme-color" content="#000000">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="main">
+		<div class="progress_bar" id="Bar"></div>
+		<img src="bgg.jpg" alt="" id="bg">
+
+		<!-- navbar part -->
+		<div class="navbar">
+			<a href="#" id="logo"><i class='bx bxs-music' ></i>&nbsp;Rose Mambo</a>
+            <a onclick="open_close_menu()" id="responsive_menu"><i class='bx bxs-chevron-down' ></i></a>
+
+			<div class="nav_content">
+				<li><a href="#">Home</a></li>
+				<li><a href="#top_tracks">Tracks</a></li>
+				<li><a href="#user_comments">Comments</a></li>
+				<li><a href="#contacts">Contact</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				
+			</div>
+
+            <a onclick="menu_action()" id="menu_btn"><i class='bx bx-menu-alt-left'></i></a>
+			<div class="side_menu">
+				<li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+				<li><a href="#"><i class='bx bx-envelope'></i></a></li>
+				<li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+				<li><a href="#"><i class='bx bx-phone'></i></a></li>
+				<li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+			</div>
+		</div>
+        
+       <!--  mid part -->
+		<div class="mid_part">
+            <img src="img.png" alt="Rose Mambo" style="object-fit: cover;">
+
+			<div class="description">
+				<p id="A_name">Rose Mambo</p>
+				<p style='font-family: Roboto;'>Gospel Musician</p>
+				<br>
+				<div class="author_desc">
+				   <p style='font-family: Roboto;'>She is a musician, song writer and a fashionista.Rose is passionate about music and will be sharing her music journey on this site</p>
+				</div>
+
+                 <div class="buttons">
+                   <button><i class='bx bxl-apple'></i></button>
+				   <button><i class='bx bxl-youtube' ></i></button>
+				   <button><i class='bx bxl-spotify'></i></button>
+				   <button><i class='bx bxl-amazon'></i></button>
+                 </div>
+
+			</div>
+		</div>
+
+        <!-- tracks part -->
+		<div class="top_tracks" id="top_tracks">
+			<p id="heading"><i class='bx bxs-playlist'></i>&nbsp;&nbsp;Top Tracks</p>
+			<div id="track"></div>
+			
+			<div id="track">
+				<img src="song_img/song_img1.jpg" alt="">
+				<div id="actions">
+					
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+
+				<audio src="songs/2.mp3" id="music"></audio>
+
+				<div id="song_desc">
+				   <p>Name of the song</p>
+				   <p>Rose Mambo</p>
+				   <p id="total_download"><i class='bx bx-like'></i>&nbsp;&nbsp;2000+</p>
+				   <p id="message">New</p>
+				</div>
+				<div id="actions_2">
+				  <p><a href="#"><i class='bx bxl-apple' ></i></a></p>
+				  <p><a href="#" ><i class='bx bxl-spotify'></i></a></p>
+				</div>
+			</div>
+
+			<div id="track">
+				<img src="song_img/song_img2.jpg" alt="">
+				<div id="actions">
+					
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/1.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					<p style='font-family: Roboto;'>Name of the song</p>
+				   <p style='font-family: Roboto;'>Rose Mambo</p>
+				   <p id="total_download"><i class='bx bx-like'></i>&nbsp;&nbsp;2000+</p>
+				   <p id="message">New</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><a href="http://"><i class='bx bxl-apple' ></i></a></p>
+				  <p><a href="1.mp3" ><i class='bx bxl-spotify'></i></a></p>
+				</div>
+			</div>
+
+			<div id="track">
+				<img src="song_img/song_img2.jpg" alt="">
+				<div id="actions">
+					
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/3.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p style='font-family: Roboto;'>Name of the song</p>
+				     <p style='font-family: Roboto;'>Rose Mambo</p>
+				     <p id="total_download"><i class='bx bx-like'></i>&nbsp;&nbsp;2000+</p>
+				     <p id="message">New</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><a href="https://"><i class='bx bxl-apple' ></i></a></p>
+				  <p><a href="https://" ><i class='bx bxl-spotify'></i></a></p>
+				</div>
+			</div>
+
+			<div id="track">
+				<img src="song_img/song_img1.jpg" alt="">
+				<div id="actions">
+					
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/4.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Name of the songs</p>
+				     <p style='font-family: Roboto;'>Rose Mambo</p>
+				     <p id="total_download"><i class='bx bx-like'></i>&nbsp;&nbsp;2000+</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><a href="http://" ><i class='bx bxl-apple' ></i></a></p>
+				  <p><a href="4.mp3" ><i class='bx bxl-spotify'></i></a></p>
+				</div>
+			</div>
+
+			<div id="track">
+				<img src="song_img/song_img2.jpg" alt="">
+				<div id="actions">
+					
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/5.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Name of the song</p>
+				     <p style='font-family: Roboto;'>Rose Mambo</p>
+				     <p id="total_download"><i class='bx bx-like'></i>&nbsp;&nbsp;2000+</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><a href=""><i class='bx bxl-apple' ></i></a></p>
+				  <p><a href="5.mp3" ><i class='bx bxl-spotify'></i></a></p>
+				</div>
+			</div>
+
+		</div>
+
+        <!-- user comments part -->
+		<div class="user_comments" id="user_comments">
+			<p id="heading"><i class='bx bx-comment-detail'></i>&nbsp;&nbsp;Comments from Fans</p>
+            
+           <div class="comments">
+
+           	 <div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-user' ></i>&nbsp;&nbsp;name</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+           	 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus beatae, maxime ipsam quae tempore suscipit doloremque minima sapiente explicabo est labore fuga ducimus facere enim voluptas neque dolore eos quaerat?</p>
+           	 		<div id="social">
+           	 			<a><i class='bx bxl-facebook-circle' ></i></a>
+           	 			<a><i class='bx bxl-twitter' ></i></a>
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+           	 <div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-user' ></i>&nbsp;&nbsp;name</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+           	 		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga numquam fugit, eos saepe harum nam? Corporis, sapiente quibusdam? Sed labore ipsa voluptatibus soluta dolorum ut distinctio aliquam, ducimus nostrum reprehenderit.</p>
+           	 		<div id="social">
+           	 			<a><i class='bx bxl-facebook-circle' ></i></a>
+           	 			<a><i class='bx bxl-twitter' ></i></a>
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+           	 <div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-user' ></i>&nbsp;&nbsp;name</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+           	 		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga numquam fugit, eos saepe harum nam? Corporis, sapiente quibusdam? Sed labore ipsa voluptatibus soluta dolorum ut distinctio aliquam, ducimus nostrum reprehenderit.</p>
+           	 		<div id="social">
+           	 			<a><i class='bx bxl-facebook-circle' ></i></a>
+           	 			<a><i class='bx bxl-twitter' ></i></a>
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+           	<div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-user' ></i>&nbsp;&nbsp;name</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+           	 		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga numquam fugit, eos saepe harum nam? Corporis, sapiente quibusdam? Sed labore ipsa voluptatibus soluta dolorum ut distinctio aliquam, ducimus nostrum reprehenderit.</p>
+           	 		<div id="social">
+           	 			<a><i class='bx bxl-facebook-circle' ></i></a>
+           	 			<a><i class='bx bxl-twitter' ></i></a>
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+           </div>
+
+		</div>
+
+		<!-- popular creator part -->
+		<div class="popular_creator">
+           <p id="heading"><i class='bx bx-album' ></i>&nbsp;&nbsp;Popular Albums</p>
+            <div class="artists_list">
+
+            	<div class="artist">
+            		<img src="img.png" alt="">
+            		<div class="artist_desc">
+            			<p>Name of the album</p>
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;2000+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            		</div>
+            		
+            	</div>
+
+            	<div class="artist">
+            		<img src="img/img1.jpg" alt="">
+            		<div class="artist_desc">
+            			<p>Name of the album</p>
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;2000+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img/img2.jpg" alt="">
+            		<div class="artist_desc">
+            			<p>Name of the album</p>
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;2000+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img/img3.jpg" alt="">
+            		<div class="artist_desc">
+            			<p>Name of the album</p>
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;2000+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img/img4.jpg" alt="">
+            		<div class="artist_desc">
+            			<p>Name of the album</p>
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;2000+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img/img1.jpg" alt="">
+            		<div class="artist_desc">
+            			<p>Name of the album</p>
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;2000+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img/img2.jpg" alt="">
+            		<div class="artist_desc">
+            			<p>Name of the album</p>
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;2000+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            		</div>
+            	</div>
+
+            </div>
+		</div>
+
+
+
+
+		<!-- Gallery -->
+		<div class="popular_creator" id='gallery'>
+			<p id="heading"><i class='bx bx-images' ></i>&nbsp;&nbsp;Gallery</p>
+			 <div class="artists_list">
+ 
+				 <div class="artist">
+					 <img src="img.png" alt="">
+					 
+					 
+				 </div>
+				 
+				
+ 
+				 <div class="artist">
+					 <img src="img/img1.jpg" alt="">
+					 
+				 </div>
+ 
+				 <div class="artist">
+					 <img src="img/img2.jpg" alt="">
+					 
+				 </div>
+ 
+				 <div class="artist">
+					 <img src="img/img3.jpg" alt="">
+					 
+				 </div>
+ 
+				 <div class="artist">
+					 <img src="img/img4.jpg" alt="">
+					 
+				 </div>
+ 
+				 <div class="artist">
+					 <img src="img/img1.jpg" alt="">
+					 
+				 </div>
+ 
+				 <div class="artist">
+					 <img src="img/img2.jpg" alt="">
+					 
+				 </div>
+ 
+			 </div>
+		 </div>
+ 
+        <!-- footer part -->
+		<div class="footer">
+			<a id="logo"><i class='bx bxs-music' ></i>&nbsp;Rose Mambo @2021</a>
+			<div class="social_handle" id="contacts">
+				<a href="tel:" ><i class='bx bx-phone' ></i></a>
+				<a href="http://" ><i class='bx bxl-facebook' ></i></a>
+				<a href="http://" ><i class='bx bxl-twitter'></i></a>
+				<a href="http://" ><i class='bx bxl-instagram' ></i></a>
+				<a href="mailto:" ><i class='bx bx-envelope' ></i></a>
+				
+			</div>
+		</div>
+
+	</div>
+
+  <!-- javascript file -->
+  <script src="main.js"></script>
+</body>
+</html>
+
+<!-- by Dev Ideas -->
